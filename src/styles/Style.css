@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+}
+
+/* .items {
+  width: 50px;
+  border: 1px solid #ccc;
+} */
+.checked {
+  text-decoration: line-through;
+}
