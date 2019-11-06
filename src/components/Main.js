@@ -19,13 +19,15 @@ export default function(props) {
 
   const items = useSelector(appState => appState.listReducer.items)
   return (
-    <div>
-      <h1>ToDos</h1>
+    <div className="Main">
+      {/* <h1>To-Dos</h1> */}
+
       <ul className="listContainer">
         {items.map((item, i) => (
           <div key={"item" + i}>
             <li className="containList">
               <div
+                id="word"
                 className={item.active === false ? "complete" : "checked"}
                 onClick={e => complete(item.id, item.active)}
               >
@@ -37,8 +39,8 @@ export default function(props) {
             </li>
           </div>
         ))}
+        <p> Items Count: {items.length}</p>
       </ul>
-      <p>Items Count: {items.length}</p>
     </div>
   )
 }

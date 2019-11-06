@@ -9,8 +9,9 @@ function App(props) {
   return (
     <Provider store={store}>
       <div>
-        <Main />
+        <h1>To-Dos</h1>
         <ItemForm />
+        <Main />
       </div>
     </Provider>
   )

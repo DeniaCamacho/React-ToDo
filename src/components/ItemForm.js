@@ -11,6 +11,7 @@ export default function(props) {
     e.preventDefault()
 
     dispatch(addItem(item))
+    setItem("")
   }
 
   return (

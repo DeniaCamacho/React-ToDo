@@ -1,11 +1,46 @@
 ul {
+  font-size: 30px;
+  margin-right: 10px;
   list-style: none;
 }
-
+h1 {
+  text-align: center;
+}
+input {
+  width: 400px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+form {
+  width: 400px;
+  margin: auto;
+}
+p {
+  text-align: right;
+}
+.Main {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(108, 171, 108);
+  width: 400px;
+  margin: auto;
+}
 /* .items {
   width: 50px;
   border: 1px solid #ccc;
 } */
 .checked {
   text-decoration: line-through;
+}
+.containList {
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+}
+#word {
+  /* border: 1px solid #ccc; */
+}
+button {
+  text-align: right;
 }
