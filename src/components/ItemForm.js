@@ -17,6 +17,7 @@ export default function(props) {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        placeholder="What needs to be done?"
         type="text"
         id="item"
         name="item"
